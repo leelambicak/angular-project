@@ -1,0 +1,38 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+.main_image {
+    width: 50%;
+    height: auto;
+}
+.main_image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .main {
+        padding: 1rem;
+    }
+    .main_image {
+        max-width: 75%;
+    }
+}
+@media (min-width: 1025px) {
+    .main {
+        padding: 2rem;
+    }
+    .main_image {
+        width: 50%;
+    }
+}

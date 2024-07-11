@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    .box1,.box2,.log_in_code
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .home{
+        height: 100%;
+        width:100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        background-color:#E7F0DC
+    }
+    .box2{
+        padding-left: 9%;
+    }
+    p{
+        font-weight:bold;
+    }
+    input{
+        height: 42px;
+        width: calc(100%);
+       
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: none;
+        outline: none;
+        border: 1px solid  #ccc;
+        padding: 0 10px;
+        text-align: center;
+       
+    }
+    
+
+    #logo{
+        font-size: 30px;
+    }
+    #button{
+        height: 40px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: none;
+        cursor: pointer;
+        margin: 8px;
+        border: 1px solid #ccc;
+        padding: 0 20px;
+        background-color: #597445;
+        color: white;
+    }
+    
+    .loader {
+        position: fixed;
+        transform: translate(-50%, -50%);
+        height: 80px;
+        width: 80px;
+        border: 8px solid rgba(0, 0, 0, 0.1);
+        border-top: 8px solid #597445;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:#E7F0DC;
+        z-index: 999; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    

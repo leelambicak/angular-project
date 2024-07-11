@@ -1,0 +1,51 @@
+[
+    {"category":"announcement",
+    "title":"ID Cards",
+    "description":"Everyone should wear ID cards in the office premises",
+    "start_time":"2024-07-01T12:00:00",
+    "end_time":"2024-07-08T12:00:00",
+    "duration":3},
+
+    {"category":"birthday",
+    "name":"Jyothsna Kuriti",
+    "start_time":"2024-07-01T00:00:00",
+    "end_time":"2024-07-11T24:00:00",
+    "duration":3,
+    "image_url":"https://ca.slack-edge.com/T03CY1UMPPD-U03D0BTAYLC-3712b545cfdd-512"
+  },
+  {
+    "category": "birthday",
+    "name": "Chalapathi Raju",
+    "start_time": "2024-07-05T00:00:00",
+    "end_time": "2024-07-11T24:00:00",
+    "belated":"yes",
+    "image_url": "https://media.istockphoto.com/id/1136810581/photo/birthday-cake-decorated-with-colorful-sprinkles-and-ten-candles.jpg?s=612x612&w=0&k=20&c=AKEBfrdZC7bGVQx26hnhfP221rCezEoSo0lJplJsuWo=",
+    "duration": 3
+  },
+  {
+    "category": "anniversary",
+    "name": "Chalapathi Raju",
+    "start_time": "2024-07-05T00:00:00",
+    "end_time": "2024-07-11T24:00:00",
+    "belated":"yes",
+    "years":32,
+    "image_url": "https://media.istockphoto.com/id/1136810581/photo/birthday-cake-decorated-with-colorful-sprinkles-and-ten-candles.jpg?s=612x612&w=0&k=20&c=AKEBfrdZC7bGVQx26hnhfP221rCezEoSo0lJplJsuWo=",
+    "duration": 3
+  },
+
+    {"category":"anniversary",
+    "name":"Dhana Lakshmi",
+    "years":1,
+    "start_time":"2024-07-02T00:00:00",
+    "end_time":"2024-07-11T24:00:00",
+    "image_url": "https://ca.slack-edge.com/T03CY1UMPPD-U0497GGR5HT-adf151bc5ec6-512",
+    "duration":3},
+
+    {"category":"welcome",
+    "name":"Karthik Namballa",
+    "start_time":"2024-07-02T00:00:00",
+    "end_time":"2024-07-1T24:00:00",
+    "duration":3,
+    "image_url":"https://s3.ap-south-2.amazonaws.com/imaginnovate.announcements/photos/21062101+EMP+.JPG"
+  }
+]

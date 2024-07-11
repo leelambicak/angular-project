@@ -1,0 +1,20 @@
+<div class="home">
+    <div class="log_in_code">
+      <p id="logo">Login Code</p>
+    </div>
+    <div class="box1">
+      <label for="code">
+        <input type="text" id="code" placeholder="Enter Login Code" autocomplete="off" [(ngModel)]="code">
+      </label>
+    </div>
+    <div class="box2">
+      <button id="button" (click)="login()">Login</button>
+    </div>
+  </div>
+
+<div class="overlay" *ngIf="isLoading">
+  <div class="loader"></div>
+</div>
+
+
+
